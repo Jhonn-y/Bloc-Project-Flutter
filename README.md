@@ -1,16 +1,13 @@
 # bloc_project
 
-A new Flutter project.
+To execute the backend folder in this project, you should have the Dart language installed!
 
-## Getting Started
+And you need to do this process below:
 
-This project is a starting point for a Flutter application.
+## Install the Dartion depency and run the Server
 
-A few resources to get you started if this is your first Flutter project:
+In your terminal, execute the following command:
+    ​dart pub global activate -sgit https://github.com/rodrigorahman/dartion.git
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
-
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+and then, in the backend folder, execute the the command:
+    dartion serve
