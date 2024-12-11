@@ -60,7 +60,9 @@ class HomePage extends StatelessWidget {
                     ),
                   ),
                   TextButton(
-                    onPressed: () {},
+                    onPressed: () {
+                      Navigator.of(context).pushNamed('contact/list/cubit');
+                    },
                     child: const Text(
                       "Contact Cubit",
                       style: TextStyle(
